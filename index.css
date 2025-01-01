@@ -1,0 +1,381 @@
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/NeueMontreal-Regular.ttf") format("truetype"),
+    url("./fonts/NeueMontreal-Bold.ttf") format("truetype"); /* Bold માટે */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Neue Montreal", sans-serif;
+}
+.headersection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* background: #fff; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.login {
+  background: transparent;
+  color: #333;
+  font-weight: bold;
+}
+
+button.signup {
+  background: #000;
+  color: #fff;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  header {
+    /* flex-direction: column; */
+    text-align: center;
+    padding: 1rem;
+  }
+
+  nav {
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  button {
+    /* width: 100%; Buttons span the width of the screen   */
+  }
+}
+
+@media (max-width: 480px) {
+  button {
+    font-size: 0.9rem; /* Adjust button text size */
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+.section2 {
+  background-color: #203c34;
+  color: #f8f6eb;
+  padding: 120px;
+}
+
+.section2txt1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin-top: 24px;
+}
+
+.section2txt2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.section3 {
+  padding-bottom: 100px;
+}
+
+.section3txt1 {
+  font-size: 60px;
+  margin-top: 120px;
+  font-weight: 500;
+  line-height: 76.8px;
+}
+
+.landing-container {
+  background-color: #faf9f6;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.phone-images {
+  position: relative;
+  max-width: 100%;
+  margin-top: 1.5em;
+  z-index: 1;
+}
+
+.appbtn {
+  width: 164px;
+  height: 48px;
+  border-radius: 6.85px;
+}
+
+.phone-image-1 {
+  max-width: 80%;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
+.app-desc {
+  font-size: 1vw;
+}
+
+.app-title {
+  font-size: 2.5vw;
+}
+
+.download-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.text-container {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+.text-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.text-container p {
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+.btn-store {
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+.image-container img {
+  max-width: 100vw;
+  max-height: 100vh;
+  height: auto;
+}
+
+.app-section {
+  background-color: #fff9e9; /* Light background color */
+  padding: 50px 20px; /* Section spacing */
+}
+
+.app-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.app-section p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.app-section img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the image */
+}
+
+.app-buttons a {
+  margin: 0 10px;
+}
+
+.btn-google-play img,
+.btn-app-store img {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.footer-section {
+  padding: 50px 0;
+}
+.btn-custom {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
+  line-height: 2.5rem;
+}
+.footer-links a:hover {
+  color: #bbb;
+}
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 8px;
+  font-size: 20px;
+}
+.social-links a:hover {
+  color: #bbb;
+}
+
+.why-choose-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.row {
+  flex-wrap: nowrap;
+}
+.text-container {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+.text-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.text-container p {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+.btn-start {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn-start:hover {
+  background-color: #444;
+}
+.image-container {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  /* height: 500px; */
+}
+
+.image-height {
+  height: 500px;
+  width: 500px;
+}
+
+.image-container img {
+  width: 100%;
+  /* margin-left: -75px;
+  margin-bottom: -17px; */
+  /* border-radius: 15px; */
+  object-fit: cover;
+}
+@media (max-width: 1200px) {
+  .text-container h2 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 992px) {
+  .section2_box {
+    /* height: 150px; */
+    width: 100%;
+    background-color: #faf9f6;
+  }
+
+  .text-container h2 {
+    font-size: 26px;
+  }
+  .text-container p {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  .headersection {
+    flex-direction: column;
+  }
+  .why-choose-section {
+    flex-direction: column;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .text-container {
+    text-align: left;
+    padding: 10px;
+  }
+  .text-container h2 {
+    font-size: 19px;
+  }
+  .image-container {
+    /* margin-top: 12px; */
+    text-align: left;
+    /* margin-left: -50px;
+  margin-bottom: -10px; */
+  }
+}
+@media (max-width: 576px) {
+  .text-container h2 {
+    font-size: 19px;
+  }
+  .text-container p {
+    font-size: 9px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 510px) {
+  .text-container h2 {
+    font-size: 18px;
+  }
+  .text-container p {
+    font-size: 8px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-start {
+    background-color: #000;
+    color: #fff;
+    padding: 9px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .text-container h2 {
+    font-size: 13px;
+  }
+  .text-container p {
+    font-size: 9px;
+    text-align: left;
+  }
+}
